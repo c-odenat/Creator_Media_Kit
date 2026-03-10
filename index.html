@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-O-D-E-M-A-N 🐎 — Media Kit | Ghana's #1 Food & Recipe Creator on Snapchat</title>
+    <meta name="description"
+        content="Official media kit for C-O-D-E-M-A-N, Ghana's fastest-growing food and recipe creator on Snapchat. 13M+ monthly views, 750K+ unique reach.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ============================
+   RESET & BASE
+   ============================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --snap-yellow: #FFFC00;
+            --snap-black: #000000;
+            --snap-dark: #0a0a0a;
+            --snap-white: #FFFFFF;
+            --snap-gray-100: #f5f5f5;
+            --snap-gray-200: #ebebeb;
+            --snap-gray-300: #d4d4d4;
+            --snap-gray-600: #6b6b6b;
+            --snap-gray-800: #2a2a2a;
+            --snap-purple: #8B5CF6;
+            --snap-blue: #3B82F6;
+            --snap-pink: #EC4899;
+            --snap-teal: #14B8A6;
+            --snap-orange: #F97316;
+            --snap-green: #22C55E;
+            --snap-red: #EF4444;
+            --gradient-snap: linear-gradient(135deg, #FFFC00 0%, #FFE500 100%);
+            --gradient-purple: linear-gradient(135deg, #8B5CF6, #EC4899);
+            --gradient-blue: linear-gradient(135deg, #3B82F6, #14B8A6);
+            --gradient-fire: linear-gradient(135deg, #F97316, #EF4444);
+            --gradient-dark: linear-gradient(180deg, #0a0a0a 0%, #1a1a2e 100%);
+            --card-radius: 20px;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            --card-shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.12);
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--snap-black);
+            color: var(--snap-white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        /* ============================
+   FULL PAGE LAYOUT
+   ============================ */
+        .page-wrapper {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        .section {
+            width: 100%;
+            padding: 80px 64px;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 56px 24px;
+            }
+        }
+
+        .section-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .section-label .emoji {
+            font-size: 1rem;
+        }
+
+        .section-heading {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 48px;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        /* ============================
+   1. HERO HEADER — Full viewport
+   ============================ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: var(--snap-black);
+            position: relative;
+            overflow: hidden;
+            padding: 48px 32px;
+        }
+
+        /* Blended Snapchat screenshot backgrounds */
+        .hero-screenshot {
+            position: absolute;
+            z-index: 1;
+            border-radius: 24px;
+            opacity: 1;
+            border: 2px solid rgba(255, 252, 0, 0.25);
+            overflow: hidden;
+            transition: opacity 0.5s ease;
+        }
+
+        .hero-screenshot img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hero-screenshot.left {
+            width: 280px;
+            height: 520px;
+            left: 3%;
+            top: 50%;
+            transform: translateY(-50%) rotate(-6deg);
+        }
+
+        .hero-screenshot.right {
+            width: 280px;
+            height: 520px;
+            right: 3%;
+            top: 50%;
+            transform: translateY(-50%) rotate(6deg);
+        }
+
+        @media (max-width: 1200px) {
+            .hero-screenshot {
+                opacity: 0.05;
+            }
+
+            .hero-screenshot.left {
+                width: 200px;
+                height: 380px;
+                left: 1%;
+            }
+
+            .hero-screenshot.right {
+                width: 200px;
+                height: 380px;
+                right: 1%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .hero-screenshot {
+                display: none;
+            }
+        }
+
+        /* Animated background shapes */
+        .hero-bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .hero-bg-shape:nth-child(1) {
+            width: 500px;
+            height: 500px;
+            background: var(--snap-yellow);
+            top: -100px;
+            left: -100px;
+            animation-delay: 0s;
+        }
+
+        .hero-bg-shape:nth-child(2) {
+            width: 400px;
+            height: 400px;
+            background: var(--snap-purple);
+            bottom: -80px;
+            right: -80px;
+            animation-delay: 2s;
+        }
+
+        .hero-bg-shape:nth-child(3) {
+            width: 300px;
+            height: 300px;
+            background: var(--snap-blue);
+            top: 50%;
+            left: 60%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -30px) scale(1.05);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.95);
+            }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        /* Snap badge */
+        .snap-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--snap-yellow);
+            color: var(--snap-black);
+            border-radius: 100px;
+            padding: 8px 24px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+            box-shadow: 0 0 30px rgba(255, 252, 0, 0.3);
+        }
+
+        .snap-ghost-svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Profile photo */
+        .profile-photo-wrapper {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 32px;
+        }
+
+        .profile-photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid var(--snap-yellow);
+            object-fit: cover;
+            display: block;
+            box-shadow: 0 0 0 8px rgba(255, 252, 0, 0.1), 0 0 60px rgba(255, 252, 0, 0.15);
+        }
+
+        .profile-glow {
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            background: conic-gradient(var(--snap-yellow), var(--snap-purple), var(--snap-blue), var(--snap-yellow));
+            z-index: -1;
+            animation: rotate-glow 4s linear infinite;
+            opacity: 0.5;
+        }
+
+        @keyframes rotate-glow {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .hero-name {
+            font-family: 'Inter', sans-serif;
+            font-size: 4rem;
+            font-weight: 900;
+            letter-spacing: 4px;
+            margin-bottom: 8px;
+            line-height: 1.1;
+            color: var(--snap-white);
+        }
+
+        .hero-name .yellow {
+            color: var(--snap-yellow);
+        }
+
+        .hero-handle {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--snap-gray-300);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .hero-tagline {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: var(--snap-yellow);
+            margin-bottom: 24px;
+            opacity: 0.9;
+        }
+
+        .hero-subline {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--snap-gray-600);
+            border-top: 1px solid rgba(255, 252, 0, 0.15);
+            padding-top: 20px;
+            display: inline-block;
+        }
+
+        .hero-scroll-hint {
+            position: absolute;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: var(--snap-gray-600);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            50% {
+                transform: translateX(-50%) translateY(-8px);
+            }
+        }
+
+        /* ============================
+   2. HEADLINE STATS — Full width yellow bar
+   ============================ */
+        .stats-section {
+            background: var(--snap-yellow);
+            color: var(--snap-black);
+            padding: 64px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            background: rgba(0, 0, 0, 0.06);
+            border-radius: var(--card-radius);
+            padding: 36px 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, background 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-emoji {
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .stat-number {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.8rem;
+            font-weight: 900;
+            color: var(--snap-black);
+            line-height: 1;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        /* ============================
+   3. GROWTH MOMENTUM — Dark dashboard
+   ============================ */
+        .growth-section {
+            background: var(--gradient-dark);
+            padding: 80px 64px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .growth-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                repeating-linear-gradient(0deg, rgba(255, 252, 0, 0.02) 0px, transparent 1px, transparent 32px),
+                repeating-linear-gradient(90deg, rgba(255, 252, 0, 0.02) 0px, transparent 1px, transparent 32px);
+            pointer-events: none;
+        }
+
+        .growth-bg-screenshots {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .growth-bg-screenshots img {
+            width: 240px;
+            height: auto;
+            border-radius: 20px;
+            filter: none;
+        }
+
+        .growth-section .section-label {
+            color: var(--snap-yellow);
+        }
+
+        .growth-section .section-heading {
+            color: var(--snap-white);
+        }
+
+        .growth-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .growth-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 252, 0, 0.1);
+            border-radius: 16px;
+            padding: 28px 20px;
+            text-align: center;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .growth-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-snap);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .growth-card:hover {
+            border-color: rgba(255, 252, 0, 0.3);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .growth-card:hover::before {
+            opacity: 1;
+        }
+
+        .growth-emoji {
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .growth-metric-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: 8px;
+        }
+
+        .growth-value {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--snap-yellow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            line-height: 1;
+            text-shadow: 0 0 30px rgba(255, 252, 0, 0.25);
+        }
+
+        .growth-arrow {
+            color: var(--snap-green);
+            font-size: 1.4rem;
+            animation: pulse-arrow 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse-arrow {
+
+            0%,
+            100% {
+                opacity: 0.6;
+                transform: translateY(0);
+            }
+
+            50% {
+                opacity: 1;
+                transform: translateY(-4px);
+            }
+        }
+
+        .growth-caption {
+            text-align: center;
+            margin-top: 32px;
+            font-size: 0.72rem;
+            color: rgba(255, 255, 255, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .growth-caption strong {
+            color: var(--snap-yellow);
+        }
+
+        /* ============================
+   4. ABOUT — White section
+   ============================ */
+        .about-section {
+            background: var(--snap-white);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .about-section .section-label {
+            color: var(--snap-purple);
+        }
+
+        .about-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .about-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 2;
+            color: var(--snap-gray-800);
+            text-align: center;
+        }
+
+        .about-text .hl {
+            background: linear-gradient(180deg, transparent 60%, rgba(255, 252, 0, 0.4) 60%);
+            font-weight: 700;
+            color: var(--snap-black);
+        }
+
+        /* ============================
+   5. AUDIENCE DEMOGRAPHICS
+   ============================ */
+        .audience-section {
+            background: var(--snap-gray-100);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .audience-section .section-label {
+            color: var(--snap-purple);
+        }
+
+        .audience-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .audience-card {
+            background: var(--snap-white);
+            border-radius: var(--card-radius);
+            padding: 28px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .audience-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .audience-card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .audience-card-emoji {
+            font-size: 1.5rem;
+        }
+
+        .audience-card-label {
+            font-size: 0.65rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--snap-gray-600);
+        }
+
+        .audience-card-value {
+            font-size: 0.95rem;
+            color: var(--snap-gray-800);
+            line-height: 1.7;
+        }
+
+        .audience-card-value strong {
+            color: var(--snap-black);
+        }
+
+        .audience-card.full-width {
+            grid-column: 1 / -1;
+        }
+
+        /* ============================
+   6. CONTENT PILLARS
+   ============================ */
+        .pillars-section {
+            background: var(--snap-black);
+            color: var(--snap-white);
+            padding: 80px 64px;
+        }
+
+        .pillars-section .section-label {
+            color: var(--snap-yellow);
+        }
+
+        .pillars-section .section-heading {
+            color: var(--snap-white);
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .pillar-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--card-radius);
+            padding: 32px 16px 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .pillar-card:hover {
+            background: rgba(255, 252, 0, 0.06);
+            border-color: rgba(255, 252, 0, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .pillar-emoji {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 14px;
+        }
+
+        .pillar-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.4;
+        }
+
+        /* ============================
+   7. WHY PARTNER
+   ============================ */
+        .partner-section {
+            background: var(--snap-white);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .partner-section .section-label {
+            color: var(--snap-orange);
+        }
+
+        .partner-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .partner-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .partner-card {
+            border-radius: var(--card-radius);
+            padding: 36px 28px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+
+        .partner-card:nth-child(1) {
+            background: linear-gradient(135deg, #FFF7ED, #FFEDD5);
+            border: 1px solid rgba(249, 115, 22, 0.15);
+        }
+
+        .partner-card:nth-child(2) {
+            background: linear-gradient(135deg, #FFFBEB, #FEF3C7);
+            border: 1px solid rgba(255, 252, 0, 0.2);
+        }
+
+        .partner-card:nth-child(3) {
+            background: linear-gradient(135deg, #F0FDF4, #DCFCE7);
+            border: 1px solid rgba(34, 197, 94, 0.15);
+        }
+
+        .partner-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--card-shadow-lg);
+        }
+
+        .partner-card-emoji {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .partner-card-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--snap-black);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .partner-card-text {
+            font-size: 0.88rem;
+            color: var(--snap-gray-600);
+            line-height: 1.7;
+        }
+
+        /* ============================
+   8. PARTNERSHIP PACKAGES
+   ============================ */
+        .packages-section {
+            background: var(--snap-gray-100);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .packages-section .section-label {
+            color: var(--snap-purple);
+        }
+
+        .packages-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            max-width: 1100px;
+            margin: 0 auto;
+            align-items: start;
+        }
+
+        .package-card {
+            background: var(--snap-white);
+            border-radius: 24px;
+            padding: 40px 28px 32px;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+            border: 2px solid transparent;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .package-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--card-shadow-lg);
+        }
+
+        .package-card.featured {
+            border-color: var(--snap-yellow);
+            transform: scale(1.04);
+            box-shadow: 0 8px 40px rgba(255, 252, 0, 0.15), var(--card-shadow-lg);
+        }
+
+        .package-card.featured:hover {
+            transform: scale(1.04) translateY(-6px);
+        }
+
+        .package-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--snap-yellow);
+            color: var(--snap-black);
+            font-size: 0.6rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 22px;
+            border-radius: 100px;
+            white-space: nowrap;
+            box-shadow: 0 4px 16px rgba(255, 252, 0, 0.3);
+        }
+
+        .package-emoji {
+            font-size: 2.2rem;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .package-tier {
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--snap-gray-600);
+            margin-bottom: 8px;
+        }
+
+        .package-price {
+            font-family: 'Inter', sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--snap-black);
+            margin-bottom: 24px;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        .package-list {
+            list-style: none;
+            text-align: left;
+        }
+
+        .package-list li {
+            font-size: 0.85rem;
+            color: var(--snap-gray-600);
+            padding: 8px 0;
+            border-bottom: 1px solid var(--snap-gray-200);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.5;
+        }
+
+        .package-list li::before {
+            content: '⚡';
+            flex-shrink: 0;
+            font-size: 0.75rem;
+        }
+
+        .package-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* ============================
+   9. IDEAL BRAND PARTNERS
+   ============================ */
+        .brands-section {
+            background: var(--snap-white);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .brands-section .section-label {
+            color: var(--snap-teal);
+        }
+
+        .brands-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .brands-text {
+            font-size: 1.05rem;
+            color: var(--snap-gray-600);
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto 36px;
+            line-height: 1.7;
+        }
+
+        .brand-logos {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            max-width: 900px;
+            margin: 0 auto 36px;
+        }
+
+        .brand-logo-slot {
+            background: var(--snap-white);
+            border: 1px solid var(--snap-gray-200);
+            border-radius: 16px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .brand-logo-slot:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--card-shadow);
+        }
+
+        .brand-logo-slot img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .brands-disclaimer {
+            text-align: center;
+            font-size: 0.72rem;
+            font-style: italic;
+            color: var(--snap-gray-600);
+            margin-top: 24px;
+            margin-bottom: 32px;
+        }
+
+        .cookware-heading {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--snap-black);
+            margin-bottom: 24px;
+        }
+
+        .cookware-marquee-wrapper {
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+            margin: 0 auto 36px;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .cookware-logos {
+            display: flex;
+            gap: 16px;
+            width: max-content;
+            animation: scroll-left 40s linear infinite;
+        }
+
+        .cookware-logos:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-50% - 8px));
+            }
+        }
+
+        .cookware-card {
+            background: var(--snap-white);
+            border: 1px solid var(--snap-gray-200);
+            border-radius: 16px;
+            height: 110px;
+            width: 180px;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .cookware-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--card-shadow);
+            border-color: var(--snap-yellow);
+        }
+
+        .cookware-card-emoji {
+            font-size: 1.6rem;
+        }
+
+        .cookware-card-name {
+            font-size: 0.9rem;
+            font-weight: 800;
+            color: var(--snap-black);
+            text-align: center;
+            line-height: 1.2;
+            white-space: normal;
+        }
+
+        .brand-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .brand-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--snap-black);
+            background: var(--snap-yellow);
+            padding: 8px 18px;
+            border-radius: 100px;
+            transition: transform 0.2s ease;
+        }
+
+        .brand-tag:hover {
+            transform: scale(1.05);
+        }
+
+        /* ============================
+   10. TESTIMONIALS
+   ============================ */
+        .testimonials-section {
+            background: var(--snap-gray-100);
+            color: var(--snap-black);
+            padding: 80px 64px;
+        }
+
+        .testimonials-section .section-label {
+            color: var(--snap-pink);
+        }
+
+        .testimonials-section .section-heading {
+            color: var(--snap-black);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background: var(--snap-white);
+            border-radius: var(--card-radius);
+            padding: 36px 32px;
+            box-shadow: var(--card-shadow);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .testimonial-quote-emoji {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 16px;
+            opacity: 0.6;
+        }
+
+        .testimonial-text {
+            font-size: 0.95rem;
+            color: var(--snap-gray-600);
+            line-height: 1.8;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-size: 0.65rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--snap-purple);
+        }
+
+        /* ============================
+   11. CONTACT FOOTER
+   ============================ */
+        .footer {
+            background: var(--snap-black);
+            color: var(--snap-white);
+            text-align: center;
+            padding: 80px 64px 48px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 30% 50%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(255, 252, 0, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .footer-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-ghost {
+            font-size: 4rem;
+            display: block;
+            margin-bottom: 24px;
+        }
+
+        .footer-headline {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            margin-bottom: 32px;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-headline .yellow {
+            color: var(--snap-yellow);
+        }
+
+        .footer-contacts {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 36px;
+            flex-wrap: wrap;
+        }
+
+        .footer-contact-item {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-contact-item .emoji {
+            font-size: 1.2rem;
+        }
+
+        .footer-contact-item strong {
+            color: var(--snap-yellow);
+            font-weight: 700;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--snap-yellow);
+            color: var(--snap-black);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 18px 52px;
+            border-radius: 100px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 24px rgba(255, 252, 0, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 40px rgba(255, 252, 0, 0.45);
+        }
+
+        .footer-fine {
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.2);
+            margin-top: 40px;
+            letter-spacing: 1px;
+        }
+
+        /* ============================
+   SNAP YELLOW DIVIDER
+   ============================ */
+        .snap-divider {
+            width: 100%;
+            height: 4px;
+            background: var(--snap-yellow);
+        }
+
+        /* ============================
+   PRINT STYLES
+   ============================ */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+
+            .hero {
+                min-height: auto;
+            }
+        }
+
+        /* ============================
+   RESPONSIVE
+   ============================ */
+        @media (max-width: 1024px) {
+            .pillars-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 800px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .growth-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .packages-grid {
+                grid-template-columns: 1fr;
+                max-width: 420px;
+            }
+
+            .package-card.featured {
+                transform: none;
+            }
+
+            .package-card.featured:hover {
+                transform: translateY(-6px);
+            }
+
+            .partner-grid {
+                grid-template-columns: 1fr;
+                max-width: 420px;
+            }
+
+            .brand-logos {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .hero-name {
+                font-size: 2.6rem;
+                letter-spacing: 2px;
+            }
+
+            .section {
+                padding: 56px 24px;
+            }
+
+            .growth-section,
+            .stats-section {
+                padding: 56px 24px;
+            }
+
+            .footer-contacts {
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .growth-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pillars-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .audience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .brand-logos {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero-name {
+                font-size: 2rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+
+            .growth-value {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- ========================================
+       1. HERO HEADER — Full viewport
+       ======================================== -->
+        <header class="hero">
+            <!-- Animated background blobs -->
+            <div class="hero-bg-shape"></div>
+            <div class="hero-bg-shape"></div>
+            <div class="hero-bg-shape"></div>
+
+            <!-- Blended Snapchat Insights screenshots -->
+            <div class="hero-screenshot left">
+                <img src="snap-insights-2.png" alt="Snapchat Public Stories Insights">
+            </div>
+            <div class="hero-screenshot right">
+                <img src="snap-insights-1.png" alt="Snapchat Spotlight Insights">
+            </div>
+
+            <div class="hero-content">
+                <div class="snap-badge">
+                    <svg class="snap-ghost-svg" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.166 2c.597 0 3.072.11 4.47 2.288.753 1.174.656 2.974.578 4.39l-.004.068c-.014.243-.027.472-.036.686a.532.532 0 0 0 .24.48c.16.104.34.157.55.157a2.3 2.3 0 0 0 .454-.058l.04-.01c.16-.04.34-.085.55-.085.288 0 .55.076.76.223.327.226.414.548.387.783-.04.33-.302.605-.804.843-.085.04-.188.08-.3.118a4.566 4.566 0 0 1-.792.222c-.08.015-.137.043-.174.064a.298.298 0 0 0-.137.213 .45.45 0 0 0-.006.15c.19.674.505 1.31.937 1.893.286.385.62.738.994 1.05.295.25.618.465.96.635.298.148.628.266.825.316l.053.015c.154.044.364.104.42.254.066.174-.03.397-.296.68a4.68 4.68 0 0 1-.825.624c-.32.187-.604.3-.944.443l-.103.044a.9.9 0 0 0-.287.18.484.484 0 0 0-.1.236c-.018.13.006.27.034.425l.003.02c.057.292.128.654-.052.967-.22.384-.673.55-1.385.507a5.887 5.887 0 0 0-.592-.02 4.43 4.43 0 0 0-.585.06 4.79 4.79 0 0 0-.683.19l-.074.028c-.46.173-1.028.388-1.79.388-.037 0-.076-.002-.113-.004a.65.65 0 0 1-.103.004c-.764 0-1.332-.215-1.79-.388l-.075-.028a4.83 4.83 0 0 0-.683-.19 4.283 4.283 0 0 0-.585-.06h-.07a6.78 6.78 0 0 0-.523.02c-.712.042-1.164-.124-1.385-.508-.18-.313-.11-.675-.052-.967l.003-.02c.028-.155.052-.295.034-.425a.483.483 0 0 0-.1-.235.896.896 0 0 0-.287-.18l-.103-.045c-.34-.144-.624-.256-.944-.443a4.68 4.68 0 0 1-.825-.623c-.265-.284-.362-.507-.297-.68.057-.15.267-.21.42-.255l.054-.015c.197-.05.527-.168.825-.316.342-.17.665-.384.96-.635.374-.312.708-.665.994-1.05.432-.584.747-1.22.937-1.894a.45.45 0 0 0-.006-.15.298.298 0 0 0-.137-.212c-.037-.02-.094-.05-.174-.064a4.566 4.566 0 0 1-.792-.222 2.408 2.408 0 0 1-.3-.118c-.502-.238-.764-.513-.805-.843-.026-.235.06-.557.388-.783.21-.147.47-.223.76-.223.21 0 .39.045.55.086l.04.01c.147.037.3.057.453.057.21 0 .39-.053.55-.158a.532.532 0 0 0 .24-.48 18.91 18.91 0 0 1-.036-.685l-.004-.068c-.078-1.416-.175-3.216.578-4.39C9.094 2.11 11.57 2 12.166 2z" />
+                    </svg>
+                    Snapchat Creator
+                </div>
+
+                <div class="profile-photo-wrapper">
+                    <div class="profile-glow"></div>
+                    <img src="profile-new-3.png" alt="C-O-D-E-M-A-N" class="profile-photo"
+                        style="object-position: center 10%;">
+                </div>
+
+                <h1 class="hero-name">C-O-D-E-<span class="yellow">M-A-N</span> 🐎</h1>
+                <p class="hero-handle">👻 @code.nat</p>
+                <p class="hero-tagline">"A moment to learn, a lifetime to perfect."</p>
+                <p class="hero-subline">🇬🇭 Ghana's #1 Food &amp; Recipe Creator on Snapchat</p>
+            </div>
+
+            <div class="hero-scroll-hint">
+                <span>Scroll</span>
+                <span>👇</span>
+            </div>
+        </header>
+
+        <!-- ========================================
+       2. HEADLINE STATS — Yellow bar
+       ======================================== -->
+        <section class="stats-section">
+            <div class="section-inner">
+                <p class="section-label" style="color: var(--snap-black);">
+                    <span class="emoji">📊</span> Verified 28-Day Performance
+                </p>
+                <div style="height:24px"></div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-emoji">🔥</span>
+                        <div class="stat-number">13.3M+</div>
+                        <div class="stat-label">Total Monthly Views</div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-emoji">👥</span>
+                        <div class="stat-number">117K</div>
+                        <div class="stat-label">Followers</div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-emoji">⏱️</span>
+                        <div class="stat-number">3.2 Min</div>
+                        <div class="stat-label">Avg. Watch Time</div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-emoji">🌍</span>
+                        <div class="stat-number">750K+</div>
+                        <div class="stat-label">Monthly Unique Reach</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+       3. GROWTH MOMENTUM — Dark dashboard
+       ======================================== -->
+        <section class="growth-section">
+            <!-- Blended screenshot backgrounds -->
+            <div class="growth-bg-screenshots">
+                <img src="snap-insights-2.png" alt="">
+                <img src="snap-insights-1.png" alt="">
+            </div>
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">📈</span> Growth Momentum
+                </p>
+                <h2 class="section-heading">28-Day Explosive Growth 🚀</h2>
+                <div class="growth-grid">
+                    <div class="growth-card">
+                        <span class="growth-emoji">👀</span>
+                        <div class="growth-metric-label">Story Views</div>
+                        <div class="growth-value">+1,574.7% <span class="growth-arrow">▲</span></div>
+                    </div>
+                    <div class="growth-card">
+                        <span class="growth-emoji">✨</span>
+                        <div class="growth-metric-label">Spotlight Views</div>
+                        <div class="growth-value">+2,493.2% <span class="growth-arrow">▲</span></div>
+                    </div>
+                    <div class="growth-card">
+                        <span class="growth-emoji">🎯</span>
+                        <div class="growth-metric-label">Unique Viewers</div>
+                        <div class="growth-value">+524.4% <span class="growth-arrow">▲</span></div>
+                    </div>
+                    <div class="growth-card">
+                        <span class="growth-emoji">💛</span>
+                        <div class="growth-metric-label">Favourites</div>
+                        <div class="growth-value">+1,715.0% <span class="growth-arrow">▲</span></div>
+                    </div>
+                    <div class="growth-card">
+                        <span class="growth-emoji">🔄</span>
+                        <div class="growth-metric-label">Shares</div>
+                        <div class="growth-value">+1,209.3% <span class="growth-arrow">▲</span></div>
+                    </div>
+                    <div class="growth-card">
+                        <span class="growth-emoji">➕</span>
+                        <div class="growth-metric-label">New Followers</div>
+                        <div class="growth-value">+579.0% <span class="growth-arrow">▲</span></div>
+                    </div>
+                </div>
+                <p class="growth-caption">All metrics vs. previous 28-day period. <strong>Verified Snapchat Insights
+                        data.</strong> ✅</p>
+            </div>
+        </section>
+
+        <div class="snap-divider"></div>
+
+        <!-- ========================================
+       4. ABOUT THE CREATOR
+       ======================================== -->
+        <section class="about-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">👨‍🍳</span> About the Creator
+                </p>
+                <h2 class="section-heading">The Story Behind the Kitchen 🍳</h2>
+                <p class="about-text">
+                    <span class="hl">C-O-D-E-M-A-N</span> is Ghana's fastest-growing food and recipe creator on
+                    Snapchat, reaching over <span class="hl">13 million views</span> and <span class="hl">750,000 unique
+                        viewers</span> every 28 days. With an average watch time of <span class="hl">3.2 minutes</span>
+                    — more than double the platform average — audiences don't just watch: they cook. 🍲 Rooted in
+                    authentic Ghanaian and West African culinary tradition, C-O-D-E-M-A-N bridges heritage recipes with
+                    modern kitchen techniques for a deeply engaged, action-taking audience. <span class="hl">65% of
+                        monthly views</span> come from organic, non-follower discovery — meaning brand partnerships
+                    reach well beyond the existing audience. 📈
+                </p>
+            </div>
+        </section>
+
+        <!-- ========================================
+       5. AUDIENCE DEMOGRAPHICS
+       ======================================== -->
+        <section class="audience-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">🎯</span> Audience Insights
+                </p>
+                <h2 class="section-heading">Who's Watching 👀</h2>
+                <div class="audience-grid">
+                    <div class="audience-card">
+                        <div class="audience-card-header">
+                            <span class="audience-card-emoji">👩‍🍳</span>
+                            <span class="audience-card-label">Primary Gender</span>
+                        </div>
+                        <div class="audience-card-value">Female-leaning<br><strong>65% Female · 35% Male</strong></div>
+                    </div>
+                    <div class="audience-card">
+                        <div class="audience-card-header">
+                            <span class="audience-card-emoji">🎂</span>
+                            <span class="audience-card-label">Core Age Group</span>
+                        </div>
+                        <div class="audience-card-value"><strong>18–35 years</strong><br>Young professionals &amp; home
+                            cooks</div>
+                    </div>
+                    <div class="audience-card">
+                        <div class="audience-card-header">
+                            <span class="audience-card-emoji">📍</span>
+                            <span class="audience-card-label">Top Locations</span>
+                        </div>
+                        <div class="audience-card-value"><strong>Ghana 🇬🇭</strong> · Nigeria 🇳🇬 · UK 🇬🇧 · USA 🇺🇸
+                            · Canada 🇨🇦</div>
+                    </div>
+                    <div class="audience-card">
+                        <div class="audience-card-header">
+                            <span class="audience-card-emoji">💡</span>
+                            <span class="audience-card-label">Interests</span>
+                        </div>
+                        <div class="audience-card-value">Cooking · Food Culture · Family Meals · African Heritage ·
+                            Lifestyle</div>
+                    </div>
+                    <div class="audience-card full-width">
+                        <div class="audience-card-header">
+                            <span class="audience-card-emoji">🔥</span>
+                            <span class="audience-card-label">Audience Behaviour</span>
+                        </div>
+                        <div class="audience-card-value"><strong>High-intent viewers who cook along in real
+                                time</strong> — creating direct product usage and brand recall far beyond passive
+                            scrolling. 🍽️</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+       6. CONTENT PILLARS
+       ======================================== -->
+        <section class="pillars-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">🎬</span> Content Universe
+                </p>
+                <h2 class="section-heading">Content Pillars</h2>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <span class="pillar-emoji">🍲</span>
+                        <span class="pillar-label">Traditional Ghanaian Recipes</span>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-emoji">⚡</span>
+                        <span class="pillar-label">Quick Everyday Meals</span>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-emoji">🌍</span>
+                        <span class="pillar-label">West African Street Food</span>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-emoji">🧁</span>
+                        <span class="pillar-label">Baking &amp; Pastries</span>
+                    </div>
+                    <div class="pillar-card">
+                        <span class="pillar-emoji">📦</span>
+                        <span class="pillar-label">Meal Prep &amp; Budget Cooking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="snap-divider"></div>
+
+        <!-- ========================================
+       7. WHY PARTNER WITH C-O-D-E-M-A-N
+       ======================================== -->
+        <section class="partner-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">💼</span> The Advantage
+                </p>
+                <h2 class="section-heading">Why Partner with C-O-D-E-M-A-N 🤝</h2>
+                <div class="partner-grid">
+                    <div class="partner-card">
+                        <span class="partner-card-emoji">⏱️</span>
+                        <h3 class="partner-card-title">Unmatched Watch Time</h3>
+                        <p class="partner-card-text">3.2 min avg. view time means audiences watch entire recipe
+                            demonstrations — not just thumbnails. 📺</p>
+                    </div>
+                    <div class="partner-card">
+                        <span class="partner-card-emoji">🚀</span>
+                        <h3 class="partner-card-title">Explosive Organic Growth</h3>
+                        <p class="partner-card-text">+1,574% story view growth in 28 days. Your brand rides a
+                            fast-moving wave, not a plateau. 📈</p>
+                    </div>
+                    <div class="partner-card">
+                        <span class="partner-card-emoji">🌐</span>
+                        <h3 class="partner-card-title">Massive Unduplicated Reach</h3>
+                        <p class="partner-card-text">65% of viewers are non-followers — your brand reaches a cold
+                            audience that already trusts C-O-D-E-M-A-N. 🎯</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+       8. PARTNERSHIP PACKAGES
+       ======================================== -->
+        <section class="packages-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">💰</span> Invest in Results
+                </p>
+                <h2 class="section-heading">Partnership Packages 📦</h2>
+                <div class="packages-grid">
+
+                    <!-- BASIC -->
+                    <div class="package-card">
+                        <span class="package-emoji">⭐</span>
+                        <div class="package-tier">Basic</div>
+                        <div class="package-price">$400</div>
+                        <ul class="package-list">
+                            <li>1 Dedicated Snap Story (5–7 snaps)</li>
+                            <li>Natural product integration in recipe</li>
+                            <li>Story link / swipe-up to brand</li>
+                            <li>24hr visibility + story highlights</li>
+                            <li>Performance report (views, reach, watch time)</li>
+                        </ul>
+                    </div>
+
+                    <!-- STANDARD -->
+                    <div class="package-card featured">
+                        <div class="package-badge">⭐ Most Popular</div>
+                        <span class="package-emoji">🔥</span>
+                        <div class="package-tier">Standard</div>
+                        <div class="package-price">$900</div>
+                        <ul class="package-list">
+                            <li>3 Snap Stories across 2 weeks</li>
+                            <li>Full recipe built around product</li>
+                            <li>Product review + demonstration snaps</li>
+                            <li>Audience engagement (poll or Q&amp;A)</li>
+                            <li>Cross-mention on other platforms</li>
+                            <li>Full analytics report with screenshots</li>
+                        </ul>
+                    </div>
+
+                    <!-- PREMIUM -->
+                    <div class="package-card">
+                        <span class="package-emoji">💎</span>
+                        <div class="package-tier">Premium</div>
+                        <div class="package-price">$2,000</div>
+                        <ul class="package-list">
+                            <li>Full 30-day campaign</li>
+                            <li>8+ Snap Stories</li>
+                            <li>Dedicated recipe series featuring brand</li>
+                            <li>Spotlight video submission</li>
+                            <li>Cross-post: Instagram + TikTok (optional)</li>
+                            <li>Usage rights for brand's channels</li>
+                            <li>Monthly analytics report</li>
+                            <li>Strategy call included</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+       9. IDEAL BRAND PARTNERS
+       ======================================== -->
+        <section class="brands-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">🤝</span> Collaboration
+                </p>
+                <h2 class="section-heading">Ideal Brand Partners 🏢</h2>
+                <p class="brands-text">"Seeking partnerships with food, beverage, kitchen appliance, FMCG, lifestyle and
+                    African market brands." ✨</p>
+                <div class="brand-logos">
+                    <div class="brand-logo-slot"><img src="logo-nestle.png" alt="Nestlé"></div>
+                    <div class="brand-logo-slot"><img src="logo-frytol.png" alt="Frytol"></div>
+                    <div class="brand-logo-slot"><img src="logo-indomie.png" alt="Indomie"></div>
+                    <div class="brand-logo-slot"><img src="logo-gino.png" alt="Gino"></div>
+                    <div class="brand-logo-slot"><img src="logo-tefal.png" alt="Tefal"></div>
+                </div>
+                <p class="brands-disclaimer">Logo placements shown are aspirational partnership targets. Past
+                    collaborations available on request.</p>
+
+                <h3 class="cookware-heading">Kitchen & Cookware Partners</h3>
+                <div class="cookware-marquee-wrapper">
+                    <div class="cookware-logos">
+                        <!-- Group 1 -->
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Tefal</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Tower Cookware</span>
+                        </div>
+                        <div class="cookware-card">
+                            <img src="logo-russell.png" alt="Russell Hobbs"
+                                style="max-width: 80%; max-height: 70px; object-fit: contain;">
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Ninja Kitchen</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Binatone</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Judge Cookware</span>
+                        </div>
+                        <div class="cookware-card">
+                            <img src="logo-instant.png" alt="Instant Pot"
+                                style="max-width: 80%; max-height: 70px; object-fit: contain;">
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Eurosonic</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">KitchenAid</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Cuisinart</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Scanpan</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Abans</span>
+                        </div>
+
+                        <!-- Duplicate Group 2 for infinite scroll loop -->
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Tefal</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Tower Cookware</span>
+                        </div>
+                        <div class="cookware-card">
+                            <img src="logo-russell.png" alt="Russell Hobbs"
+                                style="max-width: 80%; max-height: 70px; object-fit: contain;">
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Ninja Kitchen</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Binatone</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Judge Cookware</span>
+                        </div>
+                        <div class="cookware-card">
+                            <img src="logo-instant.png" alt="Instant Pot"
+                                style="max-width: 80%; max-height: 70px; object-fit: contain;">
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Eurosonic</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">KitchenAid</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Cuisinart</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🍳</span>
+                            <span class="cookware-card-name">Scanpan</span>
+                        </div>
+                        <div class="cookware-card">
+                            <span class="cookware-card-emoji">🔌</span>
+                            <span class="cookware-card-name">Abans</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-tags">
+                    <span class="brand-tag">🍔 Food & Beverage</span>
+                    <span class="brand-tag">🍳 Kitchen Appliances</span>
+                    <span class="brand-tag">🛒 FMCG</span>
+                    <span class="brand-tag">🏪 Supermarkets</span>
+                    <span class="brand-tag">📦 Meal Kits</span>
+                    <span class="brand-tag">🍳 Cookware</span>
+                    <span class="brand-tag">🌶️ Spices & Condiments</span>
+                    <span class="brand-tag">💪 Health & Nutrition</span>
+                    <span class="brand-tag">✨ Lifestyle Brands</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+       10. TESTIMONIALS
+       ======================================== -->
+        <section class="testimonials-section section">
+            <div class="section-inner">
+                <p class="section-label">
+                    <span class="emoji">💬</span> What Partners Say
+                </p>
+                <h2 class="section-heading">Testimonials 🌟</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <span class="testimonial-quote-emoji">💛</span>
+                        <p class="testimonial-text">"Working with C-O-D-E-M-A-N was a game-changer for our brand in West
+                            Africa. The audience engagement was unlike anything we've experienced on any platform — real
+                            people cooking real meals with our products." 🙌</p>
+                        <p class="testimonial-author">— Partner Brand Name, Title</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <span class="testimonial-quote-emoji">🔥</span>
+                        <p class="testimonial-text">"The content quality is exceptional. C-O-D-E-M-A-N's audience
+                            doesn't just scroll — they stay, watch, and take action. Our product placements led to
+                            measurable sales lift across our Ghanaian retail network." 📈</p>
+                        <p class="testimonial-author">— Partner Brand Name, Title</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="snap-divider"></div>
+
+        <!-- ========================================
+       11. CONTACT / BOOKING FOOTER
+       ======================================== -->
+        <footer class="footer">
+            <div class="footer-content">
+                <span class="footer-ghost">👻</span>
+                <h2 class="footer-headline">Let's Create Something<br><span class="yellow">Delicious</span> Together 🍽️
+                </h2>
+
+                <div class="footer-contacts">
+                    <div class="footer-contact-item">
+                        <span class="emoji">✉️</span>
+                        <strong>codeman.ghana@yahoo.com</strong>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="emoji">📱</span>
+                        <strong>+233 555 89 6132</strong>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="emoji">👻</span>
+                        <strong>@code.nat</strong>
+                    </div>
+                </div>
+
+                <a href="mailto:codeman.ghana@yahoo.com" class="cta-button">
+                    🤝 Book a Partnership
+                </a>
+
+                <p class="footer-fine">© 2026 C-O-D-E-M-A-N 🐎 · All metrics verified via Snapchat Insights · 🇬🇭
+                    Accra,
+                    Ghana</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

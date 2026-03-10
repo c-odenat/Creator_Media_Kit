@@ -473,6 +473,7 @@
             height: auto;
             border-radius: 20px;
             filter: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .growth-section .section-label {
@@ -1360,6 +1361,52 @@
                 grid-template-columns: 1fr;
             }
 
+            .growth-bg-screenshots {
+                display: none;
+            }
+
+            .growth-mobile-screenshots {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 16px;
+                margin-top: 16px;
+                margin-bottom: 32px;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 24px;
+                width: 100vw;
+                position: relative;
+                left: 50%;
+                right: 50%;
+                margin-left: -50vw;
+                margin-right: -50vw;
+                padding-left: 24px;
+                padding-right: 24px;
+            }
+
+            .growth-mobile-screenshots::-webkit-scrollbar {
+                display: none;
+            }
+
+            .growth-mobile-screenshots img {
+                width: 75vw;
+                max-width: 300px;
+                flex-shrink: 0;
+                scroll-snap-align: center;
+                border-radius: 20px;
+                border: 2px solid rgba(255, 255, 255, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            }
+
+            .growth-mobile-screenshots img:active {
+                transform: scale(0.98);
+                box-shadow: 0 10px 30px rgba(255, 252, 0, 0.2);
+                border-color: var(--snap-yellow);
+            }
+
             .pillars-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -1487,6 +1534,13 @@
                     <span class="emoji">📈</span> Growth Momentum
                 </p>
                 <h2 class="section-heading">28-Day Explosive Growth 🚀</h2>
+
+                <!-- Mobile slider screenshots directly below title -->
+                <div class="growth-mobile-screenshots">
+                    <img src="snap-insights-2.png" alt="Public Stories Insights">
+                    <img src="snap-insights-1.png" alt="Spotlight Insights">
+                </div>
+
                 <div class="growth-grid">
                     <div class="growth-card">
                         <span class="growth-emoji">👀</span>
@@ -1519,6 +1573,7 @@
                         <div class="growth-value">+579.0% <span class="growth-arrow">▲</span></div>
                     </div>
                 </div>
+
                 <p class="growth-caption">All metrics vs. previous 28-day period. <strong>Verified Snapchat Insights
                         data.</strong> ✅</p>
             </div>
